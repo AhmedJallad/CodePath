@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CodePathApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello from Ahmed Jallad!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcH-Rt-70H">
+                                <rect key="frame" x="90" y="212" width="195" height="104"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="VI3-Pb-s2S"/>
+                                    <constraint firstAttribute="width" constant="195" id="hkk-zH-bAV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1E-th-tfC">
+                                <rect key="frame" x="90" y="427" width="195" height="36"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Change Text Color">
+                                    <color key="titleColor" red="1" green="0.99932249220000002" blue="0.99542456160000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fwB-o1-ZXt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksx-T2-dSM">
+                                <rect key="frame" x="90" y="487" width="195" height="36"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Change View Color">
+                                    <color key="titleColor" red="1" green="0.99932249220000002" blue="0.99542456160000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapViewButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="02l-Ft-Mtn"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter text here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eXa-ok-muc">
+                                <rect key="frame" x="90" y="111" width="195" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="BTq-5P-005"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yuy-9p-X3h">
+                                <rect key="frame" x="90" y="368" width="195" height="36"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Change Text">
+                                    <color key="titleColor" red="1" green="0.99932249220000002" blue="0.99542456160000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapTextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KRJ-ky-5rJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ksx-T2-dSM" firstAttribute="top" secondItem="q1E-th-tfC" secondAttribute="bottom" constant="24" id="2kt-zn-KUT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zcH-Rt-70H" secondAttribute="trailing" constant="90" id="44o-CQ-TxV"/>
+                            <constraint firstItem="zcH-Rt-70H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="192" id="5Ru-zp-D50"/>
+                            <constraint firstItem="zcH-Rt-70H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="8MC-bQ-vin"/>
+                            <constraint firstItem="yuy-9p-X3h" firstAttribute="top" secondItem="zcH-Rt-70H" secondAttribute="bottom" constant="52" id="KGs-NU-flg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eXa-ok-muc" secondAttribute="trailing" constant="90" id="LXg-2V-DM5"/>
+                            <constraint firstItem="yuy-9p-X3h" firstAttribute="trailing" secondItem="zcH-Rt-70H" secondAttribute="trailing" id="Lc5-5Z-riA"/>
+                            <constraint firstItem="q1E-th-tfC" firstAttribute="leading" secondItem="ksx-T2-dSM" secondAttribute="leading" id="UHF-5a-CMh"/>
+                            <constraint firstItem="q1E-th-tfC" firstAttribute="top" secondItem="yuy-9p-X3h" secondAttribute="bottom" constant="23" id="WzN-QL-0pV"/>
+                            <constraint firstItem="eXa-ok-muc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="91" id="eBe-Ab-f3J"/>
+                            <constraint firstItem="q1E-th-tfC" firstAttribute="height" secondItem="yuy-9p-X3h" secondAttribute="height" id="fMy-xe-xzg"/>
+                            <constraint firstItem="yuy-9p-X3h" firstAttribute="leading" secondItem="zcH-Rt-70H" secondAttribute="leading" id="hyL-Nm-g7L"/>
+                            <constraint firstItem="yuy-9p-X3h" firstAttribute="leading" secondItem="q1E-th-tfC" secondAttribute="leading" id="mpM-T0-aKu"/>
+                            <constraint firstItem="ksx-T2-dSM" firstAttribute="width" secondItem="yuy-9p-X3h" secondAttribute="width" id="oUN-er-hLf"/>
+                            <constraint firstItem="eXa-ok-muc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="pds-3a-HRg"/>
+                            <constraint firstItem="q1E-th-tfC" firstAttribute="width" secondItem="yuy-9p-X3h" secondAttribute="width" id="w0h-zy-Xxn"/>
+                            <constraint firstItem="ksx-T2-dSM" firstAttribute="height" secondItem="yuy-9p-X3h" secondAttribute="height" id="whu-2x-aWX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="YND-LQ-i2g" appends="YES" id="tUT-7S-6EZ"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="eXa-ok-muc" id="HaQ-K6-rzO"/>
+                        <outlet property="textLabel" destination="zcH-Rt-70H" id="YYj-g8-Vy8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="YND-LQ-i2g" userLabel="Reset Recognizer">
+                    <connections>
+                        <action selector="onResetGesture:" destination="BYZ-38-t0r" id="IoN-gu-E14"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="116" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>
