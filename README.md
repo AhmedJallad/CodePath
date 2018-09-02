@@ -6,7 +6,7 @@ This app is a basic demonstration of numerous key features most apps utilize suc
 
 ### App Walk-though
 -This part of the application shows how the user is able to change the color of the view as well as go back to the default color by clicking anywhere on the view.
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/yBYBMVc"><a href="//imgur.com/yBYBMVc"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://imgur.com/a/yBYBMVc" width=200><br> 
 
 -This part of the app displays how the user is able to change the text as well as change the color of the text.
 <img src="https://giphy.com/embed/2sgehm171FArcrqjDU" width=200><br>
