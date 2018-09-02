@@ -26,15 +26,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func didTapTextButton(_ sender: Any) { // this button will change the text that the user inputs
-        textLabel.text = textField.text
-        textField.text = ""
+        if (textField.text == ""){ // This will be the default case if the user doesn't type anything
+            textLabel.text = "Hey, type something!"
+        } else {
+            textLabel.text = textField.text
+        }
+        textField.text = "" // Will clear the text field area
         view.endEditing(true)
     }
     
     @IBOutlet weak var textField: UITextField! // Text Field area for user input
     
     @IBAction func onResetGesture(_ sender: Any) { // this gesture will reset the options
-        textLabel.text = "Hello"
+        textLabel.text = "Hello from Ahmed Jallad" // Default greeting text
         view.backgroundColor = backgroundColor // will change view back to default color
         textLabel.textColor = UIColor.black // will change the text color back to default black color
     }
