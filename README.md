@@ -7,13 +7,15 @@ This app is a basic demonstration of numerous key features most apps utilize suc
 ### App Walk-though
 -This part of the application shows how the user is able to change the color of the view as well as go back to the default color by clicking anywhere on the view.
 
-<a href="https://imgflip.com/gif/2h1x2j"><img src="https://i.imgflip.com/2h1x2j.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2h1x2j"><img src="https://i.imgflip.com/2h1x2j.gif" title="made at imgflip.com" width=200/></a>
 
 -This part of the app displays how the user is able to change the text as well as change the color of the text.
-<img src="https://giphy.com/embed/2sgehm171FArcrqjDU" width=200><br>
+
+<a href="https://imgflip.com/gif/2h1xd0"><img src="https://i.imgflip.com/2h1xd0.gif" title="made at imgflip.com" width=200/></a>
 
 -This part of the app shows how the user is able to go back to all default settings by clicking anywhere on the view
-<img src="https://giphy.com/embed/NULTnMVGOdn1Z27We6" width=200><br>
+
+<a href="https://imgflip.com/gif/2h1xe5"><img src="https://i.imgflip.com/2h1xe5.gif" title="made at imgflip.com" width=200/></a>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
