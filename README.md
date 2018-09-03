@@ -11,11 +11,11 @@ This app is a basic demonstration of numerous key features most apps utilize suc
 
 -This part of the app displays how the user is able to change the text as well as change the color of the text.
 
-<a href="https://imgflip.com/gif/2h1xd0"><img src="https://i.imgflip.com/2h1xd0.gif" title="made at imgflip.com" width=200/></a>
+![](ChangeText&Color.gif)
 
 -This part of the app shows how the user is able to go back to all default settings by clicking anywhere on the view
 
-<a href="https://imgflip.com/gif/2h1xe5"><img src="https://i.imgflip.com/2h1xe5.gif" title="made at imgflip.com" width=200/></a>
+![](Default.gif)
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
